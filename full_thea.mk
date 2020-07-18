@@ -26,3 +26,5 @@ PRODUCT_NAME := full_thea
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := thea
 PRODUCT_MANUFACTURER := motorola
+
+$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_l.mk)
