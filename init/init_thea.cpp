@@ -63,8 +63,6 @@ void property_override(char const prop[], char const value[], bool add = true)
 
 void vendor_load_properties()
 {
-    int rc;
-
     std::string radio = GetProperty("ro.boot.radio", "");
 
 
